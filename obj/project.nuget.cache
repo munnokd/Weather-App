@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "66Cw/MNhOoA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kalpp\\OneDrive\\Documents\\Deakin_oops\\week7\\WeatherApp\\WeatherApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kalpp\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",
+    "C:\\Users\\kalpp\\.nuget\\packages\\itextsharp.lgplv2.core\\3.6.0\\itextsharp.lgplv2.core.3.6.0.nupkg.sha512",
+    "C:\\Users\\kalpp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\kalpp\\.nuget\\packages\\skiasharp\\3.116.1\\skiasharp.3.116.1.nupkg.sha512",
+    "C:\\Users\\kalpp\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.116.1\\skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
+    "C:\\Users\\kalpp\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.116.1\\skiasharp.nativeassets.win32.3.116.1.nupkg.sha512"
+  ],
+  "logs": []
+}
