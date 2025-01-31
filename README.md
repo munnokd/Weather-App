@@ -4,6 +4,66 @@
 ![image](https://github.com/user-attachments/assets/4306f381-f780-4020-bd44-2ba16f611598)
 ![image](https://github.com/user-attachments/assets/8dc591a7-33ee-40bd-8a50-cc7a3ef595f0)
 
+## Details of API
+APIs are the endpoints from which users can get data from the server. Users don't need to create any server or write any code rather they just simply call the API end points by which they can access data. For accessing api user need to give authentication either in the form of cookies or key. In this app I user openweather API which is accessed using key. When user call this api then users get data in the form of json. Below is that api which I used to get data from server
+
+API: http://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}&units=metric
+
+Below is the form of data that I got from the server when I called this above API: 
+```json
+{
+    "coord":
+    {
+        "lon": 151.2073,
+        "lat": -33.8679
+    },
+    "weather":
+    [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main":
+    {
+        "temp": 22.09,
+        "feels_like": 22.5,
+        "temp_min": 21.33,
+        "temp_max": 22.43,
+        "pressure": 1020,
+        "humidity": 82,
+        "sea_level": 1020,
+        "grnd_level": 1015
+    },
+    "visibility": 10000,
+    "wind":
+    {
+        "speed": 5.14,
+        "deg": 150
+    },
+    "clouds":
+    {
+        "all": 0
+    },
+    "dt": 1738329540,
+    "sys":
+    {
+        "type": 2,
+        "id": 2018875,
+        "country": "AU",
+        "sunrise": 1738350990,
+        "sunset": 1738400448
+    },
+    "timezone": 39600,
+    "id": 2147714,
+    "name": "Sydney",
+    "cod": 200
+}
+
+```
 ## Steps to call API's using splashkit
 
 ### 1. API calling
