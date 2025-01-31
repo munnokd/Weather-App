@@ -43,6 +43,5 @@ private WeatherData ParseWeatherData(string json)
 ```
 
 ## Link of video tutorial
-https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=d93c59f32bf6-44f4-b94f-b2710017ea45
-
+[https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=d93c59f3-2bf6-44f4-b94f-b2710017ea45](https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=d93c59f3-2bf6-44f4-b94f-b2710017ea45)
 
